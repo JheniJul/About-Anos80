@@ -1,0 +1,123 @@
+body{
+  margin: 0;
+  padding: 0px;
+  background-color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 19px;
+}
+
+.pequeno{
+  height: 70px;
+}  
+
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eb9c4d;
+  height: 40px; 
+  padding: 15px 0px;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  float: left;
+  list-style:none;
+}
+nav ul li a {
+  display: block;
+  color: white;
+  padding: 17px 45px;
+  text-decoration: none; 
+  font-size: 15px;
+}
+nav ul li a:hover{
+  padding: 17px 45px;
+  background-color: #ffefc1;
+  color: #eb9c4d;
+  border-radius: 10px;
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+h1{
+  font-size: 55px;
+  color: #eb9c4d;
+  background-color: #ffefc1;
+  border-radius: 10px;
+  padding: 8px;
+  filter:drop-shadow( 7px 7px 3px #eb9c4d); 
+}
+
+#linha{
+  display: block;
+  box-shadow: 0px 5px 10px 3px lightgray;
+  border-radius: 10px;
+  margin: 80px 50px 0px 50px;
+  padding: 18px 200px;
+  color: #eb9c4d;
+  font-family: cursive;
+  font-size: 20px;
+}
+#texto{
+  padding: 0;
+  margin: 50px 250px;
+  text-align: justify;
+}
+#texto img{
+  display: block;
+  margin: 0 auto;
+  width: 600px;
+  height: auto;
+  border-radius: 10px;
+}
+
+#filmes{
+  border-radius: 0px 0px 10px 10px; 
+}
+#barra{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 300px;
+  background-color: #ffefc1;
+  box-shadow: 0px 5px 10px 1px #eb9c4d;
+  font-size: 16px;
+}
+.quadrado{
+  display:inline-block;
+  width: 18%;
+  justify-content: center;
+  border-radius: 10px;
+}
+figcaption{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.quadrado img, figure{
+  height: 230px;
+  width: 170px;
+  border-radius: 10px;
+}
+
+.quadrado a{
+  text-decoration: none;
+  color: #eb9c4d;
+}
+
+footer{
+  background-color: #eb9c4d;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding: 0px 30px;
+  color: #ffefc1;
+}
